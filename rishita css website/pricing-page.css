@@ -1,0 +1,323 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+.back-graound-image {
+  height: 500px;
+  background-image: url(img/img3.jpg),
+    linear-gradient(rgba(0, 0, 0, 0.788), rgba(0, 0, 0, 0.664));
+  opacity: 95%;
+  background-blend-mode: overlay;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.top-information-header {
+  background-color: rgb(44, 50, 64);
+  display: flex;
+  gap: 650px;
+  padding: 20px;
+}
+.information-header {
+  display: flex;
+  gap: 20px;
+}
+.quection p {
+  font-weight: bold;
+  color: grey;
+}
+.call-div span {
+  font-weight: bold;
+  color: white;
+}
+.email-div span {
+  color: white;
+}
+.email-div span a {
+  font-weight: bold;
+  color: white;
+  text-decoration: none;
+}
+.social-media-info {
+  display: flex;
+  gap: 20px;
+}
+.social-media-info i {
+  color: white;
+}
+.musical-header {
+  display: flex;
+  gap: 500px;
+  padding: 15px;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.479);
+}
+.nav {
+  display: flex;
+  padding-top: 15px;
+  gap: 25px;
+  text-align: center;
+}
+
+.list {
+  position: relative;
+}
+
+.menu {
+  position: absolute;
+  top: 30px;
+  left: -30px;
+}
+.sublist {
+  padding: 15px;
+  background-color: rgba(0, 0, 0, 0.712);
+  width: 160px;
+  border-radius: 5px;
+  display: none;
+}
+
+.list:hover .sublist {
+  transition: 2s ease all;
+  display: block;
+}
+
+.musical-logo {
+  font-size: 30px;
+  font-weight: bolder;
+  color: white;
+}
+.musical-logo span i {
+  color: red;
+}
+
+.musical-header .nav li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bolder;
+  padding: 10px;
+  transition: 0.6s all ease;
+}
+.musical-header .nav li .red {
+  color: red;
+}
+.musical-header .nav li a:hover {
+  color: red;
+}
+.musical-header li {
+  list-style: none;
+}
+.search-btn button {
+  width: 200px;
+  border-radius: 20px;
+  padding: 10px;
+}
+.musical-content-hero-img {
+  padding-top: 100px;
+  padding-left: 70px;
+}
+.musical-content-hero-img h4 {
+  font-size: 20px;
+  color: white;
+  padding-bottom: 20px;
+}
+.musical-content-hero-img h1 {
+  padding-bottom: 40px;
+  font-size: 75px;
+  color: white;
+}
+.musical-content-hero-img button {
+  height: 50px;
+  width: 150px;
+  border-radius: 25px;
+  background-color: rgba(255, 0, 0, 0.753);
+  color: white;
+  font-weight: bold;
+  font-size: 15px;
+  border: none;
+  transition: 0.6s all ease;
+}
+.musical-content-hero-img button:hover {
+  background-color: skyblue;
+}
+
+.about-us-next-section {
+  padding-top: 150px;
+  padding-left: 580px;
+}
+.about-us-next-section h1 {
+  font-size: 40px;
+  color: white;
+  font-weight: bold;
+  font-family: sans-serif;
+}
+.about-us-next-section p {
+  font-size: 16px;
+  color: white;
+  font-weight: bold;
+  font-family: sans-serif;
+  padding-top: 10px;
+}
+
+/* ============================================================ */
+
+.our-pricing-section {
+  width: 100%;
+  background-color: rgb(19, 25, 23);
+}
+
+.our-pricing-container {
+  width: 90%;
+  margin: 0 auto;
+}
+.our-pricing-main-grid-sec {
+  display: flex;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+.our-pricing-left-sec {
+  width: 40%;
+  padding-top: 120px;
+}
+.our-pricing-page-right-sec {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  width: 60%;
+}
+.our-pricing-colum1 span {
+  color: white;
+  font-size: 50px;
+}
+.our-pricing-colum1 .our-plan {
+  font-weight: bolder;
+  font-family: sans-serif;
+}
+.our-pricing-colum1 .plan {
+  font-weight: lighter;
+  font-family: system-ui;
+}
+.our-pricing-colum1 p {
+  color: gray;
+  width: 370px;
+  padding-top: 20px;
+  padding-bottom: 30px;
+  line-height: 29px;
+  font-size: 18px;
+}
+.our-pricing-colum1 .btn-button {
+  width: 180px;
+  height: 50px;
+  font-weight: bold;
+  color: white;
+  border: none;
+  background-color: rgb(255, 76, 76);
+  font-size: 16px;
+  border-radius: 30px;
+}
+.our-pricing-colum2 {
+  width: 350px;
+  height: 480px;
+  box-shadow: 0px 0px 30px black;
+  border-radius: 10px;
+  /* padding: 35px; */
+  padding-left: 60px;
+  padding-top: 60px;
+}
+.our-pricing-colum2 h1 {
+  color: rgb(255, 76, 76);
+  font-size: 40px;
+  font-weight: lighter;
+}
+.our-pricing-colum2 .paragraph {
+  color: white;
+  font-size: 35px;
+  padding-bottom: 30px;
+}
+
+.per-month-sec {
+  color: grey;
+  font-size: 18px;
+  padding-bottom: 20px;
+}
+.checkbox-text i {
+  padding: 2px;
+  background-color: rgb(255, 76, 76);
+  border-radius: 50%;
+}
+.checkbox-text .basic-tag {
+  color: grey;
+  font-size: 18px;
+}
+.btn-btn {
+  padding-top: 50px;
+}
+.btn-btn button {
+  width: 180px;
+  height: 50px;
+  font-weight: bold;
+  color: white;
+  border: none;
+  background-color: rgb(255, 76, 76);
+  font-size: 16px;
+  border-radius: 30px;
+}
+
+/* ==================== */
+footer {
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.87);
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.footer-section-container {
+  width: 90%;
+  margin: 0 auto;
+}
+.footer-section {
+  display: flex;
+}
+.fotter-section-content-sec {
+  width: 35%;
+}
+.footer-link-sec {
+  width: 65%;
+}
+.footer-link-sec {
+  display: flex;
+  justify-content: space-around;
+}
+.fotter-section-content-sec p {
+  width: 330px;
+  color: gray;
+  padding-top: 20px;
+  padding-left: 25px;
+  line-height: 25px;
+}
+
+.footer-link-sec .p1 {
+  font-size: 23px;
+  font-weight: bold;
+  color: white;
+}
+.fotter-section-content-sec h5 {
+  font-size: 23px;
+  color: white;
+  font-weight: bold;
+  padding-left: 30px;
+}
+.footer-social-media {
+  gap: 10px;
+  padding: 20px;
+}
+.footer-social-media i {
+  padding: 15px;
+  background-color: rgba(255, 0, 0, 0.644);
+  border-radius: 50%;
+  font-size: 20px;
+  color: white;
+}
+.footer-name {
+  text-align: center;
+  color: gray;
+}
